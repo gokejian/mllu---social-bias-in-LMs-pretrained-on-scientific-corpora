@@ -2,7 +2,7 @@
 
 This folder contains the modified code and experimental results running CrowS-Pairs on BERT, RoBERTa, BioBERT, and SciBERT.
 
-The code is mainly based on https://github.com/nyu-mll/crows-pairs. We added support for BioBERT and SciBERT in the metric.py.
+The code is mainly based on https://github.com/nyu-mll/crows-pairs. We added support for BioBERT https://github.com/dmis-lab/biobert-pytorch and SciBERT https://github.com/allenai/scibert in the metric.py.
 
 The main metric results are in the slurm output folder 5111759_run_crowspairs.out.
 
