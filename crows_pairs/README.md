@@ -4,6 +4,9 @@ This folder contains the modified code and experimental results running CrowS-Pa
 
 The code is mainly based on https://github.com/nyu-mll/crows-pairs. 
 
+The main metric results are in the slurm output folder 5111759_run_crowspairs.out.
+
+The results for all 9 bias types are saved as csv files: bert_crows_score.csv,roberta_crows_score.csv, biobert_crows_score.csv, and scibert_crows_score.csv
 
 ## Reference
 
