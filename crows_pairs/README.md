@@ -10,6 +10,9 @@ The results for all 9 bias types are saved as csv files: bert_crows_score.csv,ro
 
 The analysis code is in **bias_type_analysis_ipynb**
 
+This task is done by Kejian Shi,
+![crows_contribution](https://user-images.githubusercontent.com/32584185/114758135-9e013a80-9d2a-11eb-839e-806b8c197df3.jpg)
+
 
 ## Reference
 
