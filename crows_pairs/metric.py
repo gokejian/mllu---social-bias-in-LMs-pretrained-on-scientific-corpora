@@ -187,12 +187,19 @@ def evaluate(args):
         tokenizer = AlbertTokenizer.from_pretrained('albert-xxlarge-v2')
         model = AlbertForMaskedLM.from_pretrained('albert-xxlarge-v2')
         uncased = True
+
     elif args.lm_model == "biobert":
         tokenizer = AutoTokenizer.from_pretrained('dmis-lab/biobert-base-cased-v1.1')
         model = AutoModelForMaskedLM.from_pretrained('dmis-lab/biobert-base-cased-v1.1')
         # model = AutoModel.from_pretrained('dmis-lab/biobert-base-cased-v1.1')
         uncased = False 
         # seems like all biobert checkpoints are cased
+
+    elif args.lm_model == "biobert-large":
+        tokenizer = AutoTokenizer.from_pretrained('dmis-lab/biobert-large-cased-v1.1')
+        model = AutoModelForMaskedLM.from_pretrained('dmis-lab/biobert-large-cased-v1.1')
+        # model = AutoModel.from_pretrained('dmis-lab/biobert-base-cased-v1.1')
+        uncased = False 
 
     elif args.lm_model == "scibert":
         tokenizer = AutoTokenizer.from_pretrained('allenai/scibert_scivocab_uncased')
