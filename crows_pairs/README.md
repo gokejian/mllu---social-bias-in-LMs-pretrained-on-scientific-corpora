@@ -8,7 +8,7 @@ The main metric results are in the ./crows_slurm_output folder 5111759_run_crows
 
 The results for all 9 bias types are saved as csv files: bert_crows_score.csv,roberta_crows_score.csv, biobert_crows_score.csv, and scibert_crows_score.csv
 
-The analysis code is in **bias_type_analysis_ipynb**
+The analysis code to break down the bias by bias categories is in **bias_type_analysis_ipynb**
 
 CrowS-Pairs tasks are done by Kejian Shi,
 
