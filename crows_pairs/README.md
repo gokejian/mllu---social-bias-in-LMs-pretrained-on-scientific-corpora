@@ -16,6 +16,9 @@ CrowS-Pairs tasks are done by Kejian Shi,
 
 Update: added crows_paris score for BioBERT-large-cased. score is in ./crows_slurm_output/5431025_crows_biolarge.out. The final result is reported in raw_table.jpg
 
+## Acknowledgement
+We would like to thank Nikita Nangia, Clara Vania, Rasika Bhalerao, and Samuel R. Bowman for allowing us reusing their code.
+
 
 ## Reference
 
