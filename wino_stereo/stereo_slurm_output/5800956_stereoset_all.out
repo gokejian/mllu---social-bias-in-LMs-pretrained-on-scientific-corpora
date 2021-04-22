@@ -1,0 +1,55 @@
+Evaluating:
+Input: ../data/stereoset.csv
+Metric: mask-ngram
+Model: bert
+====================================================================================================
+Total examples: 2106
+Metric score: 60.54
+Stereotype score: 60.54
+Num. neutral: 0 0.0
+====================================================================================================
+
+Evaluating:
+Input: ../data/stereoset.csv
+Metric: mask-ngram
+Model: roberta
+====================================================================================================
+Total examples: 2106
+Metric score: 61.21
+Stereotype score: 61.21
+Num. neutral: 0 0.0
+====================================================================================================
+
+Evaluating:
+Input: ../data/stereoset.csv
+Metric: mask-ngram
+Model: biobert
+====================================================================================================
+Total examples: 2106
+Metric score: 49.15
+Stereotype score: 49.19
+Num. neutral: 2 0.09
+====================================================================================================
+
+Evaluating:
+Input: ../data/stereoset.csv
+Metric: mask-ngram
+Model: biobert-large
+====================================================================================================
+Total examples: 2106
+Metric score: 49.34
+Stereotype score: 49.36
+Num. neutral: 1 0.05
+====================================================================================================
+
+Evaluating:
+Input: ../data/stereoset.csv
+Metric: mask-ngram
+Model: scibert
+====================================================================================================
+Total examples: 2106
+Metric score: 56.03
+Stereotype score: 56.03
+Num. neutral: 0 0.0
+====================================================================================================
+
