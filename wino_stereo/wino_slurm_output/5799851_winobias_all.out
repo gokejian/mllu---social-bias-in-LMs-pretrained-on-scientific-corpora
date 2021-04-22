@@ -1,0 +1,110 @@
+Evaluating:
+Input: ../data/winobias.type1.csv
+Metric: mask-ngram
+Model: bert
+====================================================================================================
+Total examples: 396
+Metric score: 55.56
+Stereotype score: 55.56
+Num. neutral: 0 0.0
+====================================================================================================
+
+Evaluating:
+Input: ../data/winobias.type1.csv
+Metric: mask-ngram
+Model: roberta
+====================================================================================================
+Total examples: 396
+Metric score: 67.42
+Stereotype score: 67.42
+Num. neutral: 0 0.0
+====================================================================================================
+
+Evaluating:
+Input: ../data/winobias.type1.csv
+Metric: mask-ngram
+Model: biobert
+====================================================================================================
+Total examples: 396
+Metric score: 49.24
+Stereotype score: 49.24
+Num. neutral: 0 0.0
+====================================================================================================
+
+Evaluating:
+Input: ../data/winobias.type1.csv
+Metric: mask-ngram
+Model: biobert-large
+====================================================================================================
+Total examples: 396
+Metric score: 49.49
+Stereotype score: 49.49
+Num. neutral: 0 0.0
+====================================================================================================
+
+Evaluating:
+Input: ../data/winobias.type1.csv
+Metric: mask-ngram
+Model: scibert
+====================================================================================================
+Total examples: 396
+Metric score: 47.22
+Stereotype score: 47.22
+Num. neutral: 0 0.0
+====================================================================================================
+
+Evaluating:
+Input: ../data/winobias.type2.csv
+Metric: mask-ngram
+Model: bert
+====================================================================================================
+Total examples: 396
+Metric score: 61.36
+Stereotype score: 61.36
+Num. neutral: 0 0.0
+====================================================================================================
+
+Evaluating:
+Input: ../data/winobias.type2.csv
+Metric: mask-ngram
+Model: roberta
+====================================================================================================
+Total examples: 396
+Metric score: 66.92
+Stereotype score: 67.09
+Num. neutral: 1 0.25
+====================================================================================================
+
+Evaluating:
+Input: ../data/winobias.type2.csv
+Metric: mask-ngram
+Model: biobert
+====================================================================================================
+Total examples: 396
+Metric score: 47.47
+Stereotype score: 47.47
+Num. neutral: 0 0.0
+====================================================================================================
+
+Evaluating:
+Input: ../data/winobias.type2.csv
+Metric: mask-ngram
+Model: biobert-large
+====================================================================================================
+Total examples: 396
+Metric score: 50.0
+Stereotype score: 50.0
+Num. neutral: 0 0.0
+====================================================================================================
+
+Evaluating:
+Input: ../data/winobias.type2.csv
+Metric: mask-ngram
+Model: scibert
+====================================================================================================
+Total examples: 396
+Metric score: 48.48
+Stereotype score: 48.48
+Num. neutral: 0 0.0
+====================================================================================================
+
