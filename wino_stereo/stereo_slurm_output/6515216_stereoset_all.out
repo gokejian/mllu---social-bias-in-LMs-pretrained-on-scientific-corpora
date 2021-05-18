@@ -1,0 +1,11 @@
+Evaluating:
+Input: ../data/stereoset.csv
+Metric: mask-ngram
+Model: biomed-roberta
+====================================================================================================
+Total examples: 2106
+Metric score: 58.21
+Stereotype score: 58.21
+Num. neutral: 0 0.0
+====================================================================================================
+

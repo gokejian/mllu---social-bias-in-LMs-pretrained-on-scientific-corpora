@@ -1,0 +1,22 @@
+Evaluating:
+Input: ../data/winobias.type1.csv
+Metric: mask-ngram
+Model: biomed-roberta
+====================================================================================================
+Total examples: 396
+Metric score: 56.82
+Stereotype score: 56.82
+Num. neutral: 0 0.0
+====================================================================================================
+
+Evaluating:
+Input: ../data/winobias.type2.csv
+Metric: mask-ngram
+Model: biomed-roberta
+====================================================================================================
+Total examples: 396
+Metric score: 64.65
+Stereotype score: 64.65
+Num. neutral: 0 0.0
+====================================================================================================
+
