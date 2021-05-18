@@ -8,7 +8,9 @@ Here is the result:
 
 
 
-The codes can be found in the ./bert_base_7_tasks and ./RoBRETa_Large_7_Task.
+The codes can be found in the ./bert_base_7_tasks and ./RoBRETa_Large_7_Task and ./scientific_models_superGLUE
+
+WinoBias and Stereoset codes and scores is in ./wino_stereo
 
 ---
 
