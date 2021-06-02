@@ -14,3 +14,23 @@ CrowS-Pairs tasks are done by Kejian Shi,
 
 Update: added crows_paris score for BioBERT-large-cased. score is in ./crows_slurm_output/5431025_crows_biolarge.out. The final result is reported in raw_table.jpg
 
+## Acknowledgement
+We would like to thank Nikita Nangia, Clara Vania, Rasika Bhalerao, and Samuel R. Bowman for allowing us reusing their code.
+
+
+## Reference
+
+```
+@inproceedings{nangia2020crows,
+    title = "{CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models}",
+    author = "Nangia, Nikita  and
+      Vania, Clara  and
+      Bhalerao, Rasika  and
+      Bowman, Samuel R.",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics"
+}
+```
